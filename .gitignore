@@ -1,0 +1,14 @@
+dist
+build
+.codebase_indexer
+.venv
+__pycache__
+
+.DS_Store
+
+
+
+# Added by cargo
+
+/target
+.env

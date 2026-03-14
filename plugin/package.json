@@ -1,0 +1,23 @@
+{
+  "name": "opencode-codebase-indexer",
+  "version": "0.1.0",
+  "description": "OpenCode plugin for semantic codebase indexing and search",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "chmod +x bin/*"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+[package]
+name = "codebase-indexer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.50", features = ["full"] }
+clap = { version = "4.5", features = ["derive"] }
+lancedb = "0.15"
+arrow = "53"
+arrow-array = "53"
+arrow-schema = "53"
+arrow-cast = "53"
+tiktoken-rs = "0.5"
+ignore = "0.4"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenvy = "0.15"
+indicatif = "0.17"
+notify = "6.1"
+sha2 = "0.10"
+hex = "0.4"
+futures = "0.3"
+async-trait = "0.1"
+anyhow = "1.0"
+tempfile = "3.10"
+chrono = "0.4.38"
+colored = "2.1"
