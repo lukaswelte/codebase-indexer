@@ -30,6 +30,11 @@ jobs:
         with:
           targets: ${{ matrix.target }}
           
+      - name: Install protoc
+        uses: taiki-e/install-action@v2
+        with:
+          tool: protoc
+          
       - name: Build release binary
         run: cargo build --release --target ${{ matrix.target }}
         
