@@ -1,5 +1,5 @@
 {
-  "name": "opencode-codebase-indexer",
+  "name": "@lukaswelte/codebase-indexer",
   "version": "0.1.0",
   "description": "OpenCode plugin for semantic codebase indexing and search",
   "main": "dist/index.js",
